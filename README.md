@@ -1,7 +1,7 @@
 # Saikahana Web — Trang thu gom & buôn bán phụ phẩm nông nghiệp
 
 Phiên bản: nội bộ (local)
-Tác giả: ngokyhod
+Tác giả: Ngô Kỳ Hoa
 
 ## Tóm tắt (What this is)
 Saikahana-web là một website thương mại điện tử dành cho thu gom và mua bán phụ phẩm nông nghiệp, bao gồm:
@@ -16,7 +16,7 @@ Saikahana-web là một website thương mại điện tử dành cho thu gom v�
 
 **Xem video giới thiệu đầy đủ về các tính năng chính của Saikahana Web:**
 
-[Saikahana Web Demo](https://drive.google.com/file/d/1f5rVeX-XdpeO0UAKQwXxQsCYM_GQUHxU/view?usp=sharing)
+[Saikahana Web Demo](https://drive.google.com/file/d/1f5rVeX-XdpeO0UAKQwXwQsCYM_GQUHxU/view?usp=sharing)
 
 - 🛒 Mua / Bán sản phẩm phụ phẩm nông nghiệp
 - 🤖 Tư vấn AI với RAG (Retrieval-Augmented Generation) + LLM Local QWEN 2.5
@@ -58,7 +58,7 @@ SQLQueryprovip.sql         # Script SQL / query hỗ trợ
 
 How it fits together:
 - ASP.NET app (DACS) là frontend + backend chính, phục vụ web và API cho mobile; khởi động đồng thời một SocketServer/SignalR cho chat thời gian thực.
-- AI engine (Python) chạy độc lập (FastAPI) trên cổng **5000**; webapp gọi endpoint `/chat` để hỏi AI. AI engine dùng FAISS/embeddings + BM25 + cross-encoder để RAG + LLM Loca[...]
+- AI engine (Python) chạy độc lập (FastAPI) trên cổng **5000**; webapp gọi endpoint `/chat` để hỏi AI. AI engine dùng FAISS/embeddings + BM25 + cross-encoder để RAG + LLM Local[...]
 - Dữ liệu động (giá, tồn kho, lịch sử chat AI) được lấy trực tiếp từ SQL Server bằng SQLAlchemy trong Python (DB_CONNECTION_STRING) và bằng EF Core trong C#.
 
 ---
@@ -228,7 +228,7 @@ dotnet run
    - Khởi chạy BlockchainService.TestBlockchainAsync() (non-blocking) nếu cấu hình blockchain hợp lệ.
 
 ### 10) Kết nối mobile / API
-- API dành cho mobile được triển khai trong `DACS/Controllers/Api` và các controller khác. Kiểm tra route (ở Program.cs routing/MapControllers). Dùng base URL của webapp (ví d…[...]
+- API dành cho mobile được triển khai trong `DACS/Controllers/Api` và các controller khác. Kiểm tra route (ở Program.cs routing/MapControllers). Dùng base URL của webapp (ví dụ: https://localhost:5001 hoặc http://localhost:5000 tùy cấu hình).
 
 ---
 
@@ -575,7 +575,7 @@ Tôi sẽ tạo đơn mua cho tất cả sản phẩm.
 
 ## 📄 License & Credits
 
-**Author**: ngokyhod  
+**Author**: Ngô Kỳ Hoa  
 **Version**: 1.0  
 **Updated**: 2026-08-25
 
