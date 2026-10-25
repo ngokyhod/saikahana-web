@@ -2,7 +2,7 @@
 
 ## Video giới thiệu
 
-[![Saikahana Web Demo](https://img.youtube.com/vi/brVFc_q7lI0/maxresdefault.jpg)](https://www.youtube.com/watch?v=brVFc_q7lI0)
+[![Saikahana Web Demo](https://img.youtube.com/vi/brVFc_q7lI0/maxresdefault.jpg)](https://drive.google.com/drive/folders/1khZtCGE93QtMO8Q4krapcvbm-UWPbmOO?usp=sharing)
 
 **Xem demo đầy đủ về các tính năng chính của Saikahana Web:**
 - 🛒 Mua / Bán sản phẩm phụ phẩm nông nghiệp
